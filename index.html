@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> اختبار قصير في بطاقة الأسبوع الثاني </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        .quiz-container {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .question {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .options {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .submit-btn {
+            display: block;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 60px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin: auto;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+        }
+        .correct p {
+            color: green;
+        }
+        .incorrect p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1> اختبار قصير في بطاقة الأسبوع الثاني</h1>
+
+        <!-- السؤال الأول -->
+        <div class="question" id="q1-container">
+            <p>1. لماذا لا يمكن رؤية الخلية البكتيرية بالعين المجردة؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q1" value="c">   لأنها شفافة .</label>
+                <label><input type="radio" name="q1" value="b">   لأنها تحتوي على أنسجة .</label>
+               	<label><input type="radio" name="q1" value="a">   لأنها صغيرة جدًا .</label>			
+							
+            </div>
+        </div>
+		
+        <!-- السؤال الثاني -->
+        <div class="question" id="q2-container">
+            <p>2. أي من التالي يُعد مكونًا من مكونات الخلية البكتيرية؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q2" value="a">   نواة .</label>
+                <label><input type="radio" name="q2" value="b">   غشاء خلوي.</label>
+                <label><input type="radio" name="q2" value="c">  ميتوكوندريا .</label>
+            </div>
+        </div>
+
+        <!-- السؤال الثالث -->
+        <div class="question" id="q3-container">
+            <p>3. ما هو الترتيب الصحيح لمستويات التنظيم الحيوي في الكائنات الحية؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q3" value="a">  نسيج – خلية – جهاز – عضو .</label>
+                <label><input type="radio" name="q3" value="b">  خلية – عضو – نسيج – جهاز .</label>
+                <label><input type="radio" name="q3" value="c">  خلية – نسيج – عضو – جهاز .</label>
+            </div>
+        </div>
+
+
+        <!-- السؤال الرابع -->
+        <div class="question" id="q4-container">
+            <p>4. إذا تم إزالة الجدار الخلوي من خلية بكتيرية، ما التأثير المحتمل على الخلية؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q4" value="a">   تتوقف عن إنتاج المادة الوراثية .</label>
+                <label><input type="radio" name="q4" value="b">   تفقد قدرتها على التكاثر .</label>
+                <label><input type="radio" name="q4" value="c">  تصبح أكثر عرضة للانفجار أو التلف.</label>
+            </div>
+        </div>
+
+        <!-- السؤال الخامس -->
+        <div class="question" id="q5-container">
+            <p>5. أي مما يلي يُفسر سبب عدم وجود أنسجة في البكتيريا؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q5" value="a">  البكتيريا تحتوي على نواة .</label>
+                <label><input type="radio" name="q5" value="b">  البكتيريا صغيرة جداً .</label>
+                <label><input type="radio" name="q5" value="c">  البكتيريا تتكون من خلية واحدة  .</label>
+            </div>
+        </div>
+		<!-- السؤال السادس -->
+        <div class="question" id="q6-container">
+            <p>6. ما العلاقة بين النسيج والعضو في الكائنات الحية؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q6" value="b">   العضو يحتوي على نوع واحد من الأنسجة.</label>
+				<label><input type="radio" name="q6" value="a">  العضو يتكون من مجموعة من الأنسجة .</label>
+                <label><input type="radio" name="q6" value="c">  النسيج يتكون من أجهزة متعددة.</label>
+            </div>
+        </div>
+		
+				<!-- السؤال السابع -->
+        <div class="question" id="q7-container">
+            <p>7. أي مما يلي يُعد دليلاً على أن الورقة عضو في النبات؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q7" value="b">  تنمو في جميع أجزاء النبات .</label>
+				<label><input type="radio" name="q7" value="a">  تحتوي على نواة .</label>
+                <label><input type="radio" name="q7" value="c">  تؤدي وظيفة محددة ولها تركيب خاص.</label>
+            </div>
+        </div>
+
+				<!-- السؤال الثامن -->
+        <div class="question" id="q8-container">
+            <p>8. عند مقارنة الخلية النباتية والخلية البكتيرية، أي منهما يحتوي على نواة محاطة بغلاف؟</p>
+            <div class="options">
+                <label><input type="radio" name="q8" value="b">  الخلية النباتية فقط.</label>
+				<label><input type="radio" name="q8" value="a"> الخلية البكتيرية فقط .</label>
+                <label><input type="radio" name="q8" value="c">  كلاهما .</label>
+            </div>
+        </div>
+		
+				<!-- السؤال التاسع -->
+        <div class="question" id="q9-container">
+            <p>9.لماذا تُعد الخلية وحدة البناء في الكائنات الحية؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q9" value="b">   لأنها أصغر وحدة يمكن رؤيتها بالعين .</label>
+				<label><input type="radio" name="q9" value="a">   لأنها تحتوي على مادة وراثية فقط .</label>
+                <label><input type="radio" name="q9" value="c">   لأنها تنقسم لتكون نسيجاً وأعضاء .</label>
+            </div>
+        </div>
+				<!-- السؤال العاشر -->
+        <div class="question" id="q10-container">
+            <p>10. لاحظ "سلمان" أن أحد الأجهزة في جسم الإنسان يتكون من القلب والأوعية الدموية والدم. فقال: "هذا نسيج لأنه يتكون من عدة خلايا."
+هل استنتاجه صحيح؟ </p>
+            <div class="options">
+                <label><input type="radio" name="q10" value="b"> نعم، لأنه يحتوي على خلايا فقط .</label>
+				<label><input type="radio" name="q10" value="a"> لا، لأنه يتكون من أكثر من نسيج ويشكل جهازًا .</label>
+                <label><input type="radio" name="q10" value="c">   لا، لأنه لا يحتوي على أي خلايا .</label>
+            </div>
+        </div>
+		
+        <button class="submit-btn" onclick="calculateResult()">إرسال الإجابات</button>
+        <div class="result" id="result"></div>
+    </div>
+	
+
+    <script>
+        function calculateResult() {
+            const answers = {
+                q1: 'a',
+                q2: 'b',
+                q3: 'c',
+                q4: 'c',
+                q5: 'c',
+				q6: 'a',
+				q7: 'c',
+				q8: 'b',
+				q9: 'c',
+				q10:'a',
+            };
+
+            let score = 0;
+
+            for (let question in answers) {
+                const container = document.getElementById(`${question}-container`);
+                const userAnswer = document.querySelector(`input[name="${question}"]:checked`);
+
+                if (userAnswer) {
+                    if (userAnswer.value === answers[question]) {
+                        score++;
+                        container.classList.add('correct');
+                        container.classList.remove('incorrect');
+                    } else {
+                        container.classList.add('incorrect');
+                        container.classList.remove('correct');
+                    }
+                } else {
+                    container.classList.remove('correct');
+                    container.classList.add('incorrect');
+                }
+            }
+
+            const resultDiv = document.getElementById('result');
+            resultDiv.textContent = `لقد أجبت على : ${score} من 10 أسئلة`;
+        }
+    </script>
+</body>
+</html>
